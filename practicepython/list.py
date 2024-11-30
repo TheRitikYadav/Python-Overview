@@ -44,24 +44,19 @@ List1.append(List3)
 print(List1)
 
 # indexing
-
 print(List1[0])
-print(List2[1])
-print(List3[2])
+
 
 # Slicing
-print(List1[0:2])
-print(List2[1:3])
-print(List3[2:4])
+print(List3[2:4]) # include 2 and exclude 4
 
 # Length of list
 print(len(List1))
-print(len(List2))
-print(len(List3))
+
 
 # Looping through list
 for i in List1:
-    print(i)
+    print(i) # print all elements of List1 one by one in new line
 
 # Operation on list
 # print(sum(List1))     will raise TypeError: unsupported operand type(s) for +: 'int' and 'list'
