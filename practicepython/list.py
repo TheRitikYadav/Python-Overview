@@ -87,11 +87,11 @@ print(cube)
 # Syntax: [expression for item in iterable if condition]
 # List comprehension is an elegant way to define and create lists based on existing lists.
 even = [x for x in range(10) if x % 2 == 0]
-print(even)
+print(even) 
 
 # List comprehension with if else condition
 # Syntax: [expression for item in iterable if condition else expression]
-# List comprehension is an elegant way to define and create lists based on existing lists.
+# List comprehension is an elegant way to define and create lists based on existing lists
 
 
 even_odd = ["Even" if i % 2 == 0 else "Odd" for i in range(10)]
